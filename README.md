@@ -35,6 +35,7 @@ The CTO, first engineer, cofounder, or anyone at a pre-seed startup who is accou
   - [ ] Where will your marketing site and company blog run
     - If your marketing site is built within your app, you will become the bottleneck for growth/marketing
     - Having your app running on app.yourdomain.com from day 1 might make it easier to switch later
+    - Avoid use of naked domains for hosts. They're inflexible when migrating between services.
   - [ ] Eventually you will need to provide an API
   - [ ] Set up servers with repeatable code
   - [ ] Automate DB backups, and regularly test restores (if self-managed)
