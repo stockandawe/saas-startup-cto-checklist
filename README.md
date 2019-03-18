@@ -85,7 +85,7 @@ The CTO, first engineer, cofounder, or anyone at a pre-seed startup who is accou
   - [ ] Ensure existing customers want a feature before you start building it
     - Potential customers always want the moon; rarely will just-one-more-feature! start landing customers. Choose features many leads want, not just a few
   - [ ] Have a vision for your product and work towards it. Passing on customers because of features that don't fit your vision will be painful, but will pay off in the long run.
-  - [ ] Users are stupid. Dumb down features/UIs until a flea could use them.
+  - [ ] Aim for a "simple" product. Simple is not easy, but it's what your customers and users need. The craft of product is doing the hard work of figuring out the complexity to make using it simple for your customers.
   - [ ] Support deep links; your users and your support staff will thank you
   
 - [ ] Support
