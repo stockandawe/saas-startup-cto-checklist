@@ -14,7 +14,7 @@ The CTO, first engineer, cofounder, or anyone at a pre-seed startup who is accou
     - https://rubyonrails.org/doctrine/
 
 - [ ] Tools
-  - [ ] GitHub 
+  - [ ] GitHub
   - [ ] Pick a Platform as a Service/cloud computing that you are most comfortable with
      - Minimal devops & easy deploy > cost efficency or performance
   - [ ] Have a CDN instead for providing assets from your web server
@@ -29,6 +29,8 @@ The CTO, first engineer, cofounder, or anyone at a pre-seed startup who is accou
     - Monolith vs Microservices
   - [ ] Pick a framework that you are most comfortable with
   - [ ] User authorization and policy-based access, enforce authorization checks
+    - Sooner or later, you will want to setup MFA/2FA
+    - Start with password-based authentication. Eventually you will need to support SSO
   - [ ] "Admin" User
   - [ ] When setting up data models, think about teams/groups that you will eventually need to support
   - [ ] You will likely need to support a change/addition of domain name/subdomain/host in the future
@@ -63,11 +65,14 @@ The CTO, first engineer, cofounder, or anyone at a pre-seed startup who is accou
 - [ ] Engineering Team
   - [ ] Hanlon's razor: Never attribute to malice that which is adequately explained by ignorance/stupidity/lack of knowledge.
   - [ ] Always be looking forward and "recruiting"
-  - [ ] Once you have at least one more engineer, define engineering levels 
+  - [ ] Once you have at least one more engineer, define engineering levels
   - [ ] Set up a structure to allow for experimentation
   - [ ] QA: You will need QA earlier than you think you do
   - [ ] When you are no longer effective managing the team, look for a Manager/Director/VP of Engineering who is 10x better than you
     - Choose to manage or write code. Doing both will result in poor performance of both.
+  - [ ] Decide whether you will be a setup for remote or not, and if remote, what "type" of remote team you will be
+    - Remote teams give you a large talent pool, but have unique management challenges. Hire for skill and autonomy if hiring remotely.
+    - http://klinger.io/post/180989912140/managing-remote-teams-a-crash-course
 
 - [ ] Day-to-day execution
   - [ ] stand-ups, sprints, retros, milestones
@@ -89,13 +94,17 @@ The CTO, first engineer, cofounder, or anyone at a pre-seed startup who is accou
   - [ ] Support deep links; your users and your support staff will thank you
   
 - [ ] Support
-  - [ ] Have an Admin interface from day 1
+  - [ ] Have an Admin interface from day-1
   - [ ] To ensure the "health" of your application, set up a status page
   - [ ] Provide an "impersonate" feature to Admins to help experience what the customers are experiencing
   - [ ] Engineers on rotating support schedule builds empathy, this means you and other co-founders too
   - [ ] Have a support ticketing system in place from day 1
   - [ ] Define support schedules and communicate them to your customers; enforce them with your support staff
     - Customers who "need" 24x7 support will be willing to pay a premium for it
+  - [ ] Define and document supported Browsers from day-1
+    - https://beta.caniuse.com/ is your friend
+    - If you plan to support IE, ensure that you and the team is setup to test and debug bugs in IE
+  - [ ] Setup a read-only SQL-query interface within the app for Admins (authorized users) and block use of external clients
 
 - [ ] Security
   - [ ] Go through the SaaS CTO Security Checklist
@@ -118,4 +127,3 @@ The CTO, first engineer, cofounder, or anyone at a pre-seed startup who is accou
     - Use your password manager's sharing feature to ensure access doesn't rely on you personally
   - [ ] All dependent service's payments on a company Credit Card
     - Role changes, aquisitions, canceled card, etc could make this painful
-
