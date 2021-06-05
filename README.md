@@ -108,7 +108,7 @@ The CTO, first engineer, cofounder, or anyone at a pre-seed startup who is accou
 
 - [ ] Security
   - [ ] Go through the SaaS CTO Security Checklist
-    - https://www.sqreen.com/checklists/saas-cto-security-checklist
+    - https://www.goldfiglabs.com/guide/saas-cto-security-checklist/
   - [ ] Prepare a set of assets to share with Enterprise customers
   - [ ] Run static code analysis security tool for your frameworks
   - [ ] Look into a third-party pen testing and code audit service/tool sooner than you think you will need to
